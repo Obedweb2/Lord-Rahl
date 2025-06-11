@@ -68,7 +68,7 @@ const {
   //===================SESSION-AUTH============================
 if (!fs.existsSync(__dirname + '/sessions/creds.json')) {
 if(!config.SESSION_ID) return console.log('Please add your session to SESSION_ID env !!')
-const sessdata = config.SESSION_ID.replace("HUNTER-XMD~", '');
+const sessdata = config.SESSION_ID.replace("Lord-rahl~", '');
 const filer = File.fromURL(`https://mega.nz/file/${sessdata}`)
 filer.download((err, data) => {
 if(err) throw err
@@ -113,7 +113,7 @@ const port = process.env.PORT || 9090;
   console.log('Plugins installed successful ✅')
   console.log('Bot connected to whatsapp ✅')
   
-  let up = `*ᎻᎬᏞᏞϴ ᎻႮΝͲᎬᎡ-ХᎷᎠ ႮՏᎬᎡՏ! \ud83d\udc4b\ud83c\udffb* \n\n> ՏᏆᎷᏢᏞᎬ, ՏͲᎡᎪᏆᏀͲ ҒϴᎡᏔᎪᎡᎠ ᏴႮͲ ᏞϴᎪᎠᎬᎠ ᏔᏆͲᎻ ҒᎬᎪͲႮᎡᎬՏ \ud83c\udf8a, ᎷᎬᎬͲ ᎻႮΝͲᎡᎡ-ХᎷᎠ ᏔᎻᎪͲՏᎪᏢ ᏴϴͲ.\n\n *ͲᎻᎪΝᏦ ᎽϴႮ ҒϴᎡ ႮՏᏆΝᏀ ᎷᎬᎬͲ ᎻႮΝͲᎡᎡ-ХᎷᎠ  \ud83d\udea9* \n\n> ᎫϴᏆΝ ᏔᎻᎪͲՏᎪᏢᏢ ᏟᎻᎪΝΝᎬᏞ :- ⤵️\n \nhttps://whatsapp.com/channel/0029VbAKbSjBA1ep4NkKGd1Y\n\n- *YOUR PREFIX:* = ${prefix}\n\nᎠϴΝ'Ͳ ҒϴᎡᏀᎬͲ Ͳϴ ՏͲᎪᎡ ᎪΝᎠ ҒϴᎡᏦ ᎡᎬᏢϴ \n\nhttps://github.com/Obedweb/Hunter-Xmd1\n\n> © Powered BY 🄾🄱🄴🄳 🅃🄴🄲🄷 \ud83d\udda4`;
+  let up = `*ᎻᎬᏞᏞϴ LORD RAHL ႮՏᎬᎡՏ! \ud83d\udc4b\ud83c\udffb* \n\n> ՏᏆᎷᏢᏞᎬ, ՏͲᎡᎪᏆᏀͲ ҒϴᎡᏔᎪᎡᎠ ᏴႮͲ ᏞϴᎪᎠᎬᎠ ᏔᏆͲᎻ ҒᎬᎪͲႮᎡᎬՏ \ud83c\udf8a, ᎷᎬᎬͲ LORD RAHL ᏔᎻᎪͲՏᎪᏢ ᏴϴͲ.\n\n *ͲᎻᎪΝᏦ ᎽϴႮ ҒϴᎡ ႮՏᏆΝᏀ LORD RAHL  \ud83d\udea9* \n\n> ᎫϴᏆΝ ᏔᎻᎪͲՏᎪᏢᏢ ᏟᎻᎪΝΝᎬᏞ :- ⤵️\n \nhttps://whatsapp.com/channel/0029VbALNKAAe5VjwDCu7l2E\n\n- *YOUR PREFIX:* = ${prefix}\n\nᎠϴΝ'Ͳ ҒϴᎡᏀᎬͲ Ͳϴ ՏͲᎪᎡ ᎪΝᎠ ҒϴᎡᏦ ᎡᎬᏢϴ \n\nhttps://github.com/lordrahl2-sys/Lord-Rahl-bot\n\n> © Powered BY lord rahl \ud83d\udda4`;
     conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/mdn0ez.jpg` }, caption: up })
   }
   })
@@ -769,7 +769,7 @@ if (!isReact && config.CUSTOM_REACT === 'true') {
   }
   
   app.get("/", (req, res) => {
-  res.send("ᎻႮΝͲᎬᎡ ХᎷᎠ STARTED ✅");
+  res.send("LORD  RAHL STARTED ✅");
   });
   app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
   setTimeout(() => {
