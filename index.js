@@ -114,7 +114,7 @@ const port = process.env.PORT || 9090;
   console.log('Bot connected to whatsapp ✅')
   
   let up = `*ᎻᎬᏞᏞϴ LORD RAHL ႮՏᎬᎡՏ! \ud83d\udc4b\ud83c\udffb* \n\n> ՏᏆᎷᏢᏞᎬ, ՏͲᎡᎪᏆᏀͲ ҒϴᎡᏔᎪᎡᎠ ᏴႮͲ ᏞϴᎪᎠᎬᎠ ᏔᏆͲᎻ ҒᎬᎪͲႮᎡᎬՏ \ud83c\udf8a, ᎷᎬᎬͲ LORD RAHL ᏔᎻᎪͲՏᎪᏢ ᏴϴͲ.\n\n *ͲᎻᎪΝᏦ ᎽϴႮ ҒϴᎡ ႮՏᏆΝᏀ LORD RAHL  \ud83d\udea9* \n\n> ᎫϴᏆΝ ᏔᎻᎪͲՏᎪᏢᏢ ᏟᎻᎪΝΝᎬᏞ :- ⤵️\n \nhttps://whatsapp.com/channel/0029VbALNKAAe5VjwDCu7l2E\n\n- *YOUR PREFIX:* = ${prefix}\n\nᎠϴΝ'Ͳ ҒϴᎡᏀᎬͲ Ͳϴ ՏͲᎪᎡ ᎪΝᎠ ҒϴᎡᏦ ᎡᎬᏢϴ \n\nhttps://github.com/lordrahl2-sys/Lord-Rahl-bot\n\n> © Powered BY lord rahl \ud83d\udda4`;
-    conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/mdn0ez.jpg` }, caption: up })
+    conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/n78t6r.jpg` }, caption: up })
   }
   })
   conn.ev.on('creds.update', saveCreds)
